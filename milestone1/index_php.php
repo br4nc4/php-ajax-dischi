@@ -1,5 +1,5 @@
 <?php 
-include "./database/dischi_db.php";
+include "../db/dischi_db.php";
 
 /* var_dump($database); */
 ?>
@@ -25,7 +25,7 @@ include "./database/dischi_db.php";
         <div class="container pt-5">
             <div class="row row-cols-5 g-4">
                 <?php 
-                foreach($database as $disco) { ?>
+                foreach($dati as $disco) { ?>
                 <div class="col">
                     <div class="myCard h-100">
                         <div>

@@ -1,5 +1,5 @@
 <?php
-$database = [
+$dati = [
     [
     "poster" => "https://images-na.ssl-images-amazon.com/images/I/51sBr4IWDwL.jpg",
     "title" => "New Jersey",
