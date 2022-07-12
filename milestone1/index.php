@@ -1,3 +1,9 @@
+<?php 
+include "./database/dischi_db.php";
+
+/* var_dump($database); */
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -16,7 +22,9 @@
     </header>
 
     <main class="vh-100 myMain">
+        <div class="container">
 
+        </div>
     </main>
 </body>
 </html>
