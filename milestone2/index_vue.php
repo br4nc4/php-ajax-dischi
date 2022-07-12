@@ -19,7 +19,7 @@
 
         <main>
             <div class="container">
-                <div v-for="disco in listaDischi">{{disco.title}}</div>
+                
             </div>
         </main>
     </div>
