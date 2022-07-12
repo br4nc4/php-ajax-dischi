@@ -4,9 +4,9 @@ new Vue({
         listaDischi: [],
     },
     mounted() {
-        axios.get("dischi_vue.php")
+        axios.get("./dischi_vue.php")
         .then(resp => {
-            this.listaDischi = resp.data;
+            this.listaDischi = resp.data.dischi;
         })
     }
 })

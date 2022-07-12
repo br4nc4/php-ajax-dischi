@@ -19,7 +19,9 @@
 
         <main>
             <div class="container">
-                
+                <ul>
+                    <li v-for="(disco, i) in listaDischi" :key="i">{{disco.author}}</li>
+                </ul>
             </div>
         </main>
     </div>
