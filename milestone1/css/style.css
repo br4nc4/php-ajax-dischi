@@ -1,3 +1,9 @@
+img{
+    aspect-ratio: 1/1;
+    width: 100%;
+    margin-bottom: 1.2rem;
+}
+
 .myHeader{
     background-color: #344250;
     padding: 0.8rem 1.2rem;
@@ -10,3 +16,15 @@
 .spotify-logo{
     width: 40px;
 }
+
+.myCard{
+    background-color: #2e3a46;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 180px;
+    padding: 1rem 1rem;
+    cursor: pointer;
+}
+

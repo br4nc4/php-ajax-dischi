@@ -23,7 +23,26 @@ include "./database/dischi_db.php";
 
     <main class="vh-100 myMain">
         <div class="container">
+            <div class="row row-cols-5 g-4">
+                <?php 
+                foreach($database as $disco) { ?>
+                <div class="col">
+                    <div class="myCard h100">
+                        <div>
+                            <img src="<?php echo $disco["poster"] ?>" alt="">
+                        </div>
 
+                        <div class="text-center">
+                            <h5 class="text-white text-uppercase"></h5>
+                            <p class="text-secondary mb-0 lh-1 fw-semibold"></p>
+                            <p class="text-secondary lh-1 fw-semibold"></p>
+                        </div>
+                    </div>
+                </div>
+                <?php
+                }
+                ?>
+            </div>
         </div>
     </main>
 </body>
